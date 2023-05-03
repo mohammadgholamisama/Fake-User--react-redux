@@ -20,7 +20,7 @@ export default function UserList() {
 
     useEffect(() => {
         dispatchingRedux()
-    }, [dispatch])
+    }, [])
 
     function dispatchingRedux() {
         dispatch(fetchUsers());
