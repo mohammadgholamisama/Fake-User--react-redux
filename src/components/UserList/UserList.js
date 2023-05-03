@@ -19,8 +19,8 @@ export default function UserList() {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatchingRedux()
-    }, [])
+        dispatch(fetchUsers());
+    }, [dispatch])
 
     function dispatchingRedux() {
         dispatch(fetchUsers());
