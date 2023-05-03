@@ -1,0 +1,14 @@
+.header {
+  height: 100vh;
+  position: relative;
+}
+
+.header-top {
+  height: 50vh;
+}
+
+.header-bottom {
+  height: 50vh;
+  background-color: #7c7c7c;
+}
+
